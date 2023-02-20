@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: vgrenn/week8:1.2
+        image: dlambrig/week8:1.2
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
